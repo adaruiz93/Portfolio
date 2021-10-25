@@ -4,14 +4,15 @@ import { Button } from 'react-bootstrap'
 
 function Projects() {
   return (
+    <div class="hero-image">
     <div id="projects">
   <CardGroup className="card-groups">
   <Card>
-    <Card.Img variant="top" src="./images/jamlist.jpeg" />
+    <Card.Img variant="top" src="./images/jamlist.jpeg" height="300px" />
     <Card.Body>
       <Card.Title>JamList</Card.Title>
       <Card.Text>
-      JAMList is an app to help users create and manage shopping lists by store.
+      JAMList is an app to help users create and manage shopping lists by store. From the home screen, a user adds items to their grocery list by selecting a category of item to add.
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -19,7 +20,7 @@ function Projects() {
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="./images/devnet.jpeg" />
+    <Card.Img variant="top" src="./images/devnet.jpeg" height="300px" />
     <Card.Body>
       <Card.Title>DevNet</Card.Title>
       <Card.Text>
@@ -31,7 +32,7 @@ function Projects() {
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="./images/timt.jpeg" />
+    <Card.Img variant="top" src="./images/timt.jpeg" height="300px" />
     <Card.Body>
       <Card.Title>TIMT</Card.Title>
       <Card.Text>
@@ -43,6 +44,7 @@ function Projects() {
     </Card.Footer>
   </Card>
 </CardGroup>
+      </div>
     </div>
   )
 }
