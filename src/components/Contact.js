@@ -2,9 +2,9 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div className="contact">
+    <div className="card">
       <h1>Contact Me</h1>
-      <div className="logo">
+      <div className="card-body" id="contact">
         <ul>
           <br />
           <li><a href="https://github.com/adaruiz93" target="_blank"><i class="fab fa-github fa-7x"></i></a></li>

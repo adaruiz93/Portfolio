@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap'
 
 function Projects() {
   return (
-    <div>
+    <div id="projects">
   <CardGroup className="card-groups">
   <Card>
     <Card.Img variant="top" src="./images/jamlist.jpeg" />
