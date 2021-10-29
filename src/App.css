@@ -66,9 +66,10 @@ li {
 }
 
 .profile {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
   border-radius: 50%;
-  width: 260px; 
-  height: 265px;
   display: block;
   margin-left: auto;
   margin-right: auto;
